@@ -22,3 +22,4 @@ themeToggle.addEventListener('click', () => {
   icon.classList.toggle('fa-sun');
   icon.classList.toggle('fa-moon');
 });
+
