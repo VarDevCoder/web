@@ -73,7 +73,7 @@ header p {
   font-size: 1.5rem;
   cursor: pointer;
   position: absolute;
-  top: 20px;
+  bottom: 20px;
   right: 20px;
 }
 
@@ -143,4 +143,48 @@ body.dark-mode header {
 body.dark-mode .info-item {
   background-color: #1e1e1e;
   border: 1px solid #333;
+}
+
+/* Media Queries para responsividad */
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  header p {
+    font-size: 1.2rem;
+  }
+
+  .contact-info {
+    flex-direction: column;
+  }
+
+  .contact-text {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .info-container {
+    flex-direction: column;
+  }
+
+  .info-item {
+    max-width: 100%;
+  }
 }
